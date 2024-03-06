@@ -13,6 +13,5 @@ This repository allows you to deploy, through CDKTF, two apps in containers and 
 frontend -> backend
 
 ```bash
-cd docker
-cdk deploy
+$ cdktf deploy
 ```
