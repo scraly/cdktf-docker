@@ -1,0 +1,14 @@
+{
+  "language": "go",
+  "app": "go run main.go",
+  "codeMakerOutput": "generated",
+  "projectId": "f62a8d94-1b2b-46b1-bbe6-e8d37665dd6e",
+  "sendCrashReports": "true",
+  "terraformProviders": [
+    "kreuzwerker/docker"
+  ],
+  "terraformModules": [],
+  "context": {
+
+  }
+}
