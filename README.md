@@ -16,6 +16,7 @@ This repository allows you to deploy applications running in Docker containers, 
 Deploy our stack:
 
 ```bash
+$ cdktf get
 $ cdktf deploy
 ```
 
@@ -26,4 +27,10 @@ $ docker image ls
 $ docker container ls
 $ docker network ls
 $ curl localhost:8000
+```
+
+Destroy your stack:
+
+```bash
+$ cdktf destroy
 ```
